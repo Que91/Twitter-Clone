@@ -1,0 +1,45 @@
+* {
+    color: red;
+    background-color: black;
+}
+
+.signUp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+}
+
+h2 {
+    text-align:center;
+    font-size: 50px;
+}
+
+.signUpForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 60px;
+}
+
+.joinInputs {
+    border-style: solid;
+    border-radius: 15px;
+    border-color: red;
+    margin-bottom: 10px;
+}
+
+#joinBtn {
+    font-size: 20px;
+    margin-top: 10px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: red;
+    cursor: pointer;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <h1>The Live Show</h1>
+    <div class="mainContainer">
+        <div class="dashboardNav">
+            
+            <li>Featured</li>
+            <li>Search</li>
+            <li>Explore</li>
+        </div>
+        <section class="userProfile">
+            <div class="profileAvatar"> USER NAME 
+                <br>
+                <img src="./Images/profileavatar.png" width="100px" alt="profileAvatar">
+            </div>
+            <div class="liveFeed">
+                <h2>Live Feed</h2>
+                <label for="newPost"></label>
+                <input type="text" id="newPost">
+                <div class="buttons">
+                    <input type="submit" value="Post" id="postBtn" class="feedBtns">
+                    <input type="submit" value="Edit" id="editBtn" class="feedBtns">
+                    <input type="submit" value="Delete" id="deleteBtn" class="feedBtns">
+                </div>
+            </div>
+        </section>
+        <button id="logoutBtn">Logout</button>
+    </div>
+</body>
+</html>

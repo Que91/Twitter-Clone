@@ -1,0 +1,85 @@
+* {
+    color: red;
+    background-color: black;
+}
+h1 {
+    text-align: center;
+    font-size: 70px;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboardNav {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    border-style: solid;
+    border-radius: 15px;
+    margin: 50px;
+    font-size: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    cursor: pointer;
+}
+
+.profileAvatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.liveFeed {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 10px;
+    justify-content: center;
+    border-style: solid;
+    border-radius: 15px;
+}
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#newPost {
+    width: 200px;
+    height: 50px;
+    align-self: center;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: red;
+}
+
+.feedBtns {
+    border-style: solid;
+    border-radius: 15px;
+    border-color: red;
+    margin: 10px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.buttons {
+    align-self: center;
+}
+
+#logoutBtn {
+    text-align: center;
+    margin-top: 20px;
+    width: 100px;
+    align-self: center;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: red;
+    font-size: 20px;
+    cursor: pointer;
+}
