@@ -19,19 +19,20 @@
             <li>Search</li>
             <li>Explore</li>
         </div>
-        <section class="userProfile">
-            <div class="liveFeed">
+            <div class="postWall" id="liveFeed">
                 <h2>Live Feed</h2>
-                <label for="newPost"></label>
-                <input type="text" id="newPost">
+                <label for="newPost">
+                <input autocomplete="off" 
+                type="text" 
+                name="newPost" 
+                id="newPost">
+                </label>
                 <div class="buttons">
-                    <input type="submit" value="Post" id="postBtn" class="feedBtns">
-                    <input type="submit" value="Edit" id="editBtn" class="feedBtns">
-                    <input type="submit" value="Delete" id="deleteBtn" class="feedBtns">
+                    <button class="feedBtns" id="postBtn">Post</button>
                 </div>
             </div>
-        </section>
         <button id="logoutBtn">Logout</button>
     </div>
 </body>
+<script src="dashboard.js"></script>
 </html>

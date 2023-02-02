@@ -70,10 +70,6 @@ li {
     cursor: pointer;
 }
 
-.buttons {
-    align-self: center;
-}
-
 #logoutBtn {
     text-align: center;
     margin-top: 20px;
