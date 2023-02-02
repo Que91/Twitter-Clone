@@ -1,17 +1,12 @@
-{
+{ 
+"Posts": {
     "uuid0": {
-        "name": "Que",
-        "email": "que@gmail.com",
-        "password": "password123"
+        "post": "new post "
     },
-    "uuid0": {
-        "name": "Braye",
-        "email": "Braye@gmail.com",
-        "password": "password123"
+    "uuid1": {
+        "post": "new post A"
     },
-    "uuid0": {
-        "name": "DJ Swamp",
-        "email": "djswamp@gmail.com",
-        "password": "password123"
-    },
-}
+    "uuid2": {
+        "post": "new post B"
+    }
+}}

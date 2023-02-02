@@ -3,6 +3,11 @@
 const postBtn = document.getElementById('postBtn');
 const liveFeed = document.getElementById('liveFeed');
 
+const URL = 'https://the-live-show-80050-default-rtdb.firebaseio.com/';
+const EXT = '.json';
+
+// window.addEventListener('load', get_posts());
+
 // Create Post
 
 postBtn.addEventListener('click', function(){
@@ -43,6 +48,7 @@ postBtn.addEventListener('click', function(){
        
     } )
 
+// LOGOUT
 
     
 
